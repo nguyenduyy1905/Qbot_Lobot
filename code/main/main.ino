@@ -43,11 +43,14 @@ void loop() {
   {
     distance = temp;
   }
+  else
+  {
+    return; 
+  }
 
   matrixLed.showNum(0, distance);
 
-
-  if (distance > 5 & distance < 100)
+  if (distance > 5 & distance < 50)
   {
     if (distance > 30 ) {
       motor1.reverseRun(28);
@@ -55,7 +58,7 @@ void loop() {
       rgbLED.setColor(0, 255, 0, 0);
       rgbLED.show();
     } else {
-      motor1.reverseRun(-18);
+      motor1.reverseRun(-19);
       motor2.reverseRun(-20);
       rgbLED.setColor(0, 0, 255, 0);
       rgbLED.show();
@@ -63,7 +66,7 @@ void loop() {
   }
   else
   {
-    if (distance > 100 & distance < 150)
+    if (distance > 50 & distance < 150)
     {
       motor1.reverseRun(15);
       motor2.reverseRun(-15);
