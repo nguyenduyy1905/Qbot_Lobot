@@ -39,7 +39,7 @@ void setup() {
 void loop() {
   int temp = get_distance();
   int delta = temp - oldDistance;
-  if (temp < 40 & temp > -40)
+  if (temp < 100 & temp > -100)
   {
     distance = temp;
   }
@@ -58,15 +58,15 @@ void loop() {
       rgbLED.setColor(0, 255, 0, 0);
       rgbLED.show();
     } else {
-      motor1.reverseRun(-19);
-      motor2.reverseRun(-20);
+      motor1.reverseRun(-28);
+      motor2.reverseRun(-30);
       rgbLED.setColor(0, 0, 255, 0);
       rgbLED.show();
     }
   }
   else
   {
-    if (distance > 50 & distance < 150)
+    if (distance > 50 & distance < 100)
     {
       motor1.reverseRun(15);
       motor2.reverseRun(-15);
