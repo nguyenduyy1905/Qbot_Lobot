@@ -11,3 +11,7 @@ Tổng chi phí phát triển hệ thống: 110 triệu đồng
 1. Khởi động hệ thống
 2. Nhận dạng vật thể
 3. Di chuyển theo vật thể
+
+## Ước lượng thời gian
+Phát triển và kiểm thử: 2 tháng
+Tích hợp: 1 tháng
