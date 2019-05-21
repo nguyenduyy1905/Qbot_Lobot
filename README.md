@@ -15,3 +15,6 @@ Tổng chi phí phát triển hệ thống: 110 triệu đồng
 ## Ước lượng thời gian
 Phát triển và kiểm thử: 2 tháng
 Tích hợp: 1 tháng
+
+## Ước lượng rủi ro
+Cảm biến độ bền không cao => bảo hành
